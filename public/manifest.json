@@ -1,0 +1,13 @@
+{
+  "short_name": "CB_ME",
+  "name": "CB_MobileEngineer",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "ru",
+  "icons": [{
+    "src": "icons/logo-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}

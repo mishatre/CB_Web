@@ -1,0 +1,22 @@
+html
+    head
+        title auth
+        meta(charset='utf-8')
+        link(rel='stylesheet', href='css/bootstrap.min.css')
+        link(rel='stylesheet', href='css/style.css')
+        link(href='http://fonts.googleapis.com/css?family=Raleway:400,200', rel='stylesheet', type='text/css')
+    body
+        div.container
+            div.card.card-container
+                img.profile-img-card#profile-img(src='http://ssl.gstatic.com/accounts/ui/avatar_2x.png')
+                p.profile-name-card#profile-name
+                form.form-signin
+                    span#reauth-email.reauth-email
+                    input#inputEmail.form-control(type="email", placeholder="Логин", required, autofocus)
+                    input#inputPassword.form-control(type="password", placeholder="Пароль", required)
+                    div#remember.checkbox
+                        label
+                            input(type="checkbox", value="remember-me")
+                            |Remember me
+                    button.btn.btn-lg.btn-primary.btn-block.btn-signin(type="submit") Sign in
+                a.forgot-password( href="#") Forgot the password?
